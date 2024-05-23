@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  text-align: center;
+  color: #000000;
+  font-size: 36px;
+  font-family: "宋体", Arial;
+  text-shadow: #FC0 1px 0 10px;
+  padding: 10px;
+}
+p{
+  text-indent:2em;
+}
+body {
+  background: #ffffff;
+  margin: 0 auto;
+  background: #8da0a78d;
+  font-size: 14px;
+  color: #333;
+  position: relative;
+  padding-top: 0px;
+  padding-bottom: 50px;
+}
+a {
+  cursor: pointer;
+  color: #333;
+  text-decoration: none;
+  outline: none;
+}
+ul {
+  list-style-type: none;
+}
+div.clear {
+  font: 0px Arial;
+  line-height: 0;
+  height: 0;
+  overflow: hidden;
+  clear: both;
+}
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*wrapin 主体容器宽度*/
+.wrapin {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.con {
+  padding: 15px;
+  background: #fff;
+}
+.imgtop{
+  width:1000px;
+  height: auto;
+  align-items: center;
+  position: relative;
+}
+header {
+  height: 50px;
+  background: #9D8469;
+  border-bottom: 1px solid #ccc;
+  position:-webkit-sticky;
+  position: sticky;
+  top:0; 
+}
+.nav li {
+  line-height: 50px;
+  float: left;
+  width: 16.66%;
+  text-align: center;
+  font-size: 16px;
+}
+.nav li a {
+  color: white;
+}
+footer {
+  background: #9D8469;
+  text-align: center;
+  color: #fff;
+  margin-top: 0px;
+  line-height: 50px;
+}
+table {
+  border-block-start-style: dotted;
+  writing-mode: horizontal-tb;
+  width: 90%;
+  margin: 30px;
+  align-items: center;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+img {
+  width: auto;
+  height: auto;
+}
+.text {
+  width: 60%;
+  line-height: 26px;
+  color: #333;
+  font-size: 14px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+

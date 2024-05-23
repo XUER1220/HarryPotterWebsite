@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link type="text/css" rel="stylesheet" href="../css/jiaoliu.css" />
+  <title>写信交流</title>
+</head>
+<body>
+  <div class="wrapin">
+    <!--顶部-->
+    <img src="../images/else/background.jpg" class="imgtop">
+    <header>
+      <ul class="nav clearfix">
+        <li><a href="../index.html">首页</a></li>
+        <li><a href="renwu.html">人物介绍</a></li>
+        <li><a href="jieshuo.html">剧情解说</a></li>
+        <li><a href="yinyue.html">音乐鉴赏</a></li>
+        <li><a href="bizhi.html">精美壁纸</a></li>
+        <li><a href="jiaoliu.html">写信交流</a></li>
+      </ul>
+    </header>
+
+    <!--内容-->
+    <div class="con">
+      <h1>写信交流</h1>
+      <form>
+        <table>
+          <tr>
+            <td><label for="name">1.你的网名是</label></td>
+            <td><input type="text" id="name" name="name"></td>
+          </tr>
+
+          <tr>
+            <td><label for="contact">2.联系方式</label></td>
+            <td><input type="text" id="contact" name="contact"></td>
+          </tr>
+          <tr>
+            <td><label for="how_learned">3.您是如何得知《哈利波特》这部作品的？</label></td>
+            <td>
+              <select id="how_learned" name="how_learned">
+                <option value="friend">朋友推荐</option>
+                <option value="search">网络搜索</option>
+                <option value="book_library">书店/图书馆</option>
+                <option value="movie_anime">电影</option>
+                <option value="other">其他(请说明)</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="watch_count">4.您观看/阅读《哈利波特》的次数是？</label></td>
+            <td>
+              <select id="watch_count" name="watch_count">
+                <option value="one">一次</option>
+                <option value="two">两次</option>
+                <option value="three_or_more">三次及以上</option>
+                <option value="not_watched">还未观看/阅读</option>
+              </select>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="theme">5.您认为《哈利波特》的主题是什么？</label></td>
+            <td>
+              
+              <input type="radio" id="theme_growth" name="theme" value="成长">
+              <label for="theme_growth">成长</label>
+              <input type="radio" id="theme_love" name="theme" value="爱">
+              <label for="theme_love">爱</label>
+              <input type="radio" id="theme_fantasy_adventure" name="theme" value="奇幻冒险">
+              <label for="theme_fantasy_adventure">奇幻冒险</label>
+              <input type="radio" id="theme_friendship" name="theme" value="友情">
+              <label for="theme_friendship">友情</label>
+              <input type="radio" id="theme_other" name="theme" value="其他(请说明)">
+              <label for="theme_other">其他(请说明)</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="favorite_character">6.您最喜欢《哈利波特》中的哪个角色？</label></td>
+            <td>
+              <input type="checkbox" id="character_Harry" name="character_Harry">
+              <label for="character_Harry">哈利·波特</label>
+              <input type="checkbox" id="character_Hermione" name="character_Hermione">
+              <label for="character_Hermione">赫敏·格兰杰</label>
+              <input type="checkbox" id="character_Ron" name="character_Ron">
+              <label for="character_Ron">罗恩·韦斯莱</label>
+              <input type="checkbox" id="character_Mal" name="character_Mal">
+              <label for="character_Mal">德拉科·马尔福</label>
+              <br/>
+              <input type="checkbox" id="character_Dum" name="character_Dum">
+              <label for="character_Dum">阿不思·邓布利多</label>
+              <input type="checkbox" id="character_Vol" name="character_Vol">
+              <label for="character_Vol">伏地魔</label>
+              <input type="checkbox" id="character_Snape" name="character_Snape">
+              <label for="character_Snape">西弗勒斯·斯内普</label>
+              <input type="checkbox" id="character_Black" name="character_Black">
+              <label for="character_Black">小天狼星布莱克</label>
+              <br/>
+              <input type="checkbox" id="character_Bell" name="character_Bell">
+              <label for="character_Bell">贝拉·莱斯特兰奇</label>
+              <input type="checkbox" id="character_Hag" name="character_Hag">
+              <label for="character_Hag">海格</label>
+              <input type="checkbox" id="character_Mc" name="character_Mc">
+              <label for="character_Mc">米勒娃·麦格</label>
+              <input type="checkbox" id="character_Luna" name="character_Luna">
+              <label for="character_Luna">卢娜·洛夫古德</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td><label for="music_quality">7.您认为《哈利波特》电影版的音乐如何？</label></td>
+            <td>
+              <input type="radio" id="music_verygood" name="music_quality" value="非常好，为故事增色不少">
+              <label for="music_verygood">非常好，为故事增色不少</label>
+              <br/>
+              <input type="radio" id="music_average" name="music_quality" value="一般，没有特别突出的地方">
+              <label for="music_average">一般，没有特别突出的地方</label>
+              <br/>
+              <input type="radio" id="music_notgood" name="music_quality" value="不好，影响了观影体验">
+              <label for="music_notgood">不好，影响了观影体验</label>
+            </td>
+          </tr>
+
+          <tr>
+            <td>8.对《哈利波特》的感悟</td>
+            <td><textarea for="textarea" rows="4" cols="75"></textarea></td>
+          </tr>
+        </table>
+        <br><center>
+        <button onclick="submitForm()">提交</button>
+        <button onclick="resetForm()">重置</button>
+        <button onclick="clearForm()">清空</button></center>
+      </form>
+    </div>
+    <!--底部-->
+    <footer>It is our choices that show who we truly are, far more than our abilities. ——Dumbledore</footer>
+    
+  </div>
+  <script type="text/javascript" src="../js/jiaoliu.js"></script>
+</body>
+</html>
